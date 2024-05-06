@@ -33,7 +33,7 @@ end
 
 local function notif(str,dur)
 	game:FindService("StarterGui"):SetCore("SendNotification", {
-		Title = "Cataihub Yeet",
+		Title = "Cataihub Yeet Gui",
 		Text = str,
 		Icon = "rbxassetid://2005276185",
 		Duration = dur or 3
@@ -88,7 +88,7 @@ TextBox.BorderSizePixel = 0
 TextBox.Position = UDim2.new(0.0704845786, 0, 0.270642221, 0)
 TextBox.Size = UDim2.new(0, 388, 0, 62)
 TextBox.Font = Enum.Font.SourceSans
-TextBox.PlaceholderText = "Who do i destroy (can be shortened"
+TextBox.PlaceholderText = "Here username you is fling!"
 TextBox.Text = ""
 TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextBox.TextScaled = true
