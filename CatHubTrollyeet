@@ -33,9 +33,9 @@ end
 
 local function notif(str,dur)
 	game:FindService("StarterGui"):SetCore("SendNotification", {
-		Title = "Cataihub Yeet Gui",
+		Title = "Cat Hub Yeet Gui",
 		Text = str,
-		Icon = "rbxassetid://2005276185",
+		Icon = "rbxassetid://17489005328",
 		Duration = dur or 3
 	})
 end
@@ -61,7 +61,7 @@ Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Main.BorderSizePixel = 0
 Main.Position = UDim2.new(0.174545452, 0, 0.459574461, 0)
 Main.Size = UDim2.new(0, 454, 0, 218)
-Main.Image = "rbxassetid://2005276185"
+Main.Image = "rbxassetid://17489005328"
 
 Top.Name = "Top"
 Top.Parent = Main
@@ -76,7 +76,7 @@ Title.BorderSizePixel = 0
 Title.Position = UDim2.new(0, 0, 0.295454562, 0)
 Title.Size = UDim2.new(0, 454, 0, 30)
 Title.Font = Enum.Font.SourceSans
-Title.Text = "Cataihub Yeet Gui (by memecat0)"
+Title.Text = "Cat Hub Yeet Gui (by memecat0)"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextScaled = true
 Title.TextSize = 14.000
